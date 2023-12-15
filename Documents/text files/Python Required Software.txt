@@ -1,0 +1,5 @@
+********** Required Software ***********
+
+1. Python, Download-> https://www.python.org/downloads/
+2. Pycharm (Community), Download-> https://www.jetbrains.com/pycharm/download/?section=windows
+3. Or, Visual Studio, Download-> https://code.visualstudio.com/download

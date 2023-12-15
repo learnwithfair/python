@@ -1,0 +1,56 @@
+1.  Data Types
+2.  Strings
+3.  Operators
+4.  Lists
+5.  Tuples
+6.  Sets
+7.  Dictionaries
+8.  Conditional Operator
+9.  Loop
+10. Functions
+11. Lambda
+12. Arrays
+13. Series
+14. Append HTML File
+15. Area 
+16. Break and Continue
+17. Character Class
+18. User Input
+19. Map and Filter Function 
+20. Recursion 
+21. List 
+22. List Comprehensions
+23. Math Function
+24. Method of List 
+25. Method of Range
+26. Set
+27. Stack
+28. Tuples
+29. Type Custing
+30. Type Function 
+31. Matrix
+32. Meta Character
+33. String Formating
+34. NewLine Removing
+35. Swaping
+36. Ternary Operator
+37. Logical Operator
+38. Relational Operator
+39. Regular Expression
+40. Pattern
+41. Queue
+42. Exception
+43. File
+44. Xarguments
+45. XXargument
+46. Zip Function 
+47. Custom Mudule
+48. Comment
+49. Guessing
+50. Class 
+51. Abstraction
+52. Inheritance
+53. Polymorphism
+54. Overriding
+55. Overloading
+56. Encapsulation
