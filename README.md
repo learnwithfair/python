@@ -1,78 +1,96 @@
 Thanks for visiting my GitHub account!
 
-## JAVA (OOPs)
-Java is a popular OOP language. It is used to develop mobile apps, web apps, desktop apps, games, and much more.
+## Python (OOPs)
+Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
 
-![oop](https://github.com/learnwithfair/java/blob/main/images/oops.png)
+**It is used for**
+- web development (server-side),
+- software development,
+- mathematics,
+- system scripting.
 
-[See More](https://www.w3schools.com/java/)
+### Features of Python
+
+![features](https://github.com/learnwithfair/python/blob/main/images/python_important_features.jpg)
+
+***See More*** 
+ https://www.w3schools.com/python/python_intro.asp Or, https://www.tutorialspoint.com/python/index.htm
 
 ## Source Code (Download)
-[Click Here](https://mega.nz/folder/ROF1WBTS#klvFbstilMZrMg_z1JeRhg)
+[Click Here](https://mega.nz/folder/ZfchHTgQ#RGMrPIhP7e2hPdLT2YnYHg)
 
+## Required Software (Download)
+- Python, Download-> https://www.python.org/downloads/
+- Pycharm (Community), Download-> https://www.jetbrains.com/pycharm/download/?section=windows
+- Or, Visual Studio, Download-> https://code.visualstudio.com/download
+- For MySQL Database, Download-> https://www.mysql.com/downloads/
 
-## Compiling and Running JAVA Programs
-This section explains how to compile and run a JAVA application from the command line. For information on compiling and running a JAVA application using NetBeans IDE, see Running Tutorial Examples in NetBeans IDE. Here are the steps you need to follow:
-
-- Install the latest release of the Java SE platform, if you haven't already done so (JDK).
-- Setup Environment variable for JDk
-- Install IDE such as NetBeans, Eclipse
-- Create a program that uses Swing components.
-- Compile the program.
-- Run the program.
+## Python Install
+Many PCs and Macs will have Python already installed.
+To check if you have Python installed on a Windows PC, search in the start bar for Python or run the following on the Command Line (cmd.exe):
 ```diff
-- Note: File name and class name must be the same.
-
+python --version
 ```
 
-## Environment variable Setup
---- To set java path ---
-1. Right-click on "My computer" and click on properties
-2. Click on "Advanced system settings"
-3. Click on "Environment variables"
-4. Click on the new tab of a user variable
-5. Write the path in a variable name
-6. Copy the path of the bin folder ( ``` C:\Program Files\Java\jdk-21\bin ```)
-7. Paste the path of the bin folder in the variable value
-8. Click OK
-9. For Check, write the command in the CMD  ``` java -version ``` Or, ``` javac -version ```
-   
-[See More](https://stackoverflow.com/questions/1672281/how-to-set-the-environment-variables-for-java-in-windows)
+## The Python Command Line
 
-## Required Software (Download)
-- JDK, Download-> https://www.oracle.com/java/technologies/downloads/#jdk21-windows
-- NetBeans, Download-> https://netbeans.apache.org/front/main/download/nb122/nb122/
-- Or, Eclipse, Download-> https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2023-12/R/eclipse-inst-jre-win64.exe
+```diff
+C:\Users\Your Name>python
+```
+Or, if the "python" command did not work, you can try "py"
 
-## For Advance, Connect Database (JDBC)
-- Connect MS Access database, visit-> https://www.youtube.com/watch?v=MbDoMexPcYc
-
-## Required Software (Download)
-- UCanAccess, Download-> https://sourceforge.net/projects/ucanaccess/
-- WindowBuilder, Download-> https://download.eclipse.org/windowbuilder/updates/release/latest/
+```diff
+C:\Users\Your Name>py
+```
+From there you can write any Python, including our hello world example from earlier in the tutorial
+```diff
+>>> print("Hello, World!")
+```
 
 
-## Enable TCP_IP Error
-1. Go to Manage by clicking on Desktop Computer
-2. Go to Service and Applications
-3. Go to SQL Server Configuration Manager
-4. Go to SQL Server Network Configuration
-5. Go to Protocol for MSSQLSERVER
-6. Then TCP/IP Enable.
-7. Go to SQL Server Services Restart All  (Example...Sql server browser, SQL server(MSS..))
+## Python MySQL (Database)
+To be able to experiment with the code examples in this tutorial, you should have MySQL installed on your computer.
+You can download a MySQL database at https://www.mysql.com/downloads/.
+
+### Connect the database as follows
+
+- Install MySQL Driver
+- Python needs a MySQL driver to access the MySQL database. In this tutorial, we will use the driver "MySQL Connector".
+- We recommend that you use PIP to install "MySQL Connector".
+- PIP is most likely already installed in your Python environment.
+
+Navigate your command line to the location of PIP, and type the following-
+
+### Download and install "MySQL Connector" ###
+```diff
+C:\Users\Your Name\AppData\Local\Programs\Python\Python36-32\Scripts>python -m pip install mysql-connector-python
+```
+### Create Connection
+
+***demo_mysql_connection.py***
+```diff
+import mysql.connector
+
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="yourusername",
+  password="yourpassword"
+)
+
+print(mydb)
+```
+
+[See More](https://www.w3schools.com/python/python_mysql_getstarted.asp)
 
 
 ## Project Overview
 
 |   | 
 |:---:|
-|Primary|
-|![Primary](https://github.com/learnwithfair/java/blob/main/images/overview.png)|
-|Advances|
-|![Advances](https://github.com/learnwithfair/java/blob/main/images/advance.png)|
-|JDBC, Socket, Thread|
-|![Advances](https://github.com/learnwithfair/java/blob/main/images/jdbc-socket-thread.png)|
-
+|Basic|
+|![basic](https://github.com/learnwithfair/python/blob/main/images/python%20basic.png)|
+|Advance|
+|![Advance](https://github.com/learnwithfair/python/blob/main/images/python%20advanced.png)|
 
 
 
